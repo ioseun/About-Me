@@ -1,0 +1,107 @@
+.container{
+padding-left: 25px;
+padding-right: 25px;
+margin: 0;
+max-width: 1300px;
+}
+a{
+    color: wheat;
+}
+.content{
+    padding: 5em;
+    margin: 0 auto;
+}
+
+nav{
+    margin: 0 auto;
+    padding-left: 3em;
+    margin-left: 50%;
+}
+.img1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.photo{
+    padding: 2em;
+    margin-left: 20px;
+    margin-top: 2px;
+    height: 500px;
+    width: 500px;
+    align-items:center;
+}  
+.icon{
+    text-align: center;
+    font-size: 3vmax;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    color: #c2956e;
+    padding-bottom: 2em;
+} 
+.icona{
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5vmax;
+    display: flex;
+    flex: 1;
+    margin: 0 auto;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #c2956e;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+section{
+    margin-top: 52px;
+}
+
+.welcomenote{
+    padding: 2em;
+    margin-top: 52px;
+    margin-left: 60%;
+    font-family: 'Courier New', Courier, monospace;   
+    font-size: 1.5vmax;
+    color: #c2956e;
+    position: absolute;
+    bottom: 50%;
+    background-color: beige;
+    border-radius: 50px;
+}
+
+.myservices{ 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 5vmax;
+    /*display: flex;
+    flex: 1;*/
+    margin: 0 auto;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #c2956e;
+    padding-left: 2em;
+    padding-right: 2em;    
+}
+
+.topic{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vmax;
+    color: #c2956e;
+    text-align: center;
+}
+
+.mypics{
+    margin-left: 40%;    
+    padding: 2em;
+}
+.pics{
+    display: grid;
+    gap: 5vmax;
+}
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    color: #c2956e;
+    background-color: beige;
+}
